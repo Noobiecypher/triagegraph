@@ -1,0 +1,49 @@
+[
+  {
+    "id": "a1",
+    "timestamp": "2026-10-18T09:15:00Z",
+    "source": "ssh",
+    "event_type": "brute_force",
+    "source_ip": "203.0.113.9",
+    "username": "admin",
+    "message": "47 failed SSH logins in 2 minutes, followed by 1 success",
+    "details": {"failed_attempts": 47, "window_seconds": 120}
+  },
+  {
+    "id": "a2",
+    "timestamp": "2026-10-18T09:20:00Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.15",
+    "username": "priya",
+    "message": "Single failed login, correct password on retry",
+    "details": {"failed_attempts": 1}
+  },
+  {
+    "id": "a3",
+    "timestamp": "2026-10-18T09:31:00Z",
+    "source": "firewall",
+    "event_type": "port_scan",
+    "source_ip": "198.51.100.23",
+    "message": "Sequential connection attempts to 1,200 ports",
+    "details": {"ports_probed": 1200}
+  },
+  {
+    "id": "a4",
+    "timestamp": "2026-10-18T09:40:00Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "not-an-ip",
+    "message": "This one should be rejected"
+  },
+  {
+    "id": "a5",
+    "timestamp": "2026-10-18T10:05:00Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "172.16.254.99",
+    "username": "abhinav",
+    "message": "Failed web login attempt from unrecognised device",
+    "details": {"failed_attempts": 1}
+  }
+]
