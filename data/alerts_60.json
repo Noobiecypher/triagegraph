@@ -1,145 +1,215 @@
 [
   {
-    "id": "4333f707-af1c-471e-993b-1db496e28658",
-    "timestamp": "2026-10-15T00:09:16.453348Z",
+    "id": "d40bbde6-6111-45a3-903b-a345de01af44",
+    "timestamp": "2026-10-14T19:10:03.517418Z",
     "source": "web",
     "event_type": "failed_login",
-    "source_ip": "172.16.254.3",
-    "username": "deploy",
+    "source_ip": "192.168.1.55",
+    "username": "root",
     "message": "Single failed login attempt",
     "details": {
       "failed_attempts": 1
     }
   },
   {
-    "id": "f9538aa2-7143-4989-b797-5f139da7f848",
-    "timestamp": "2026-10-15T00:58:16.453348Z",
-    "source": "web",
-    "event_type": "normal_activity",
-    "source_ip": "192.168.1.101",
-    "username": "ganesh",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "3035f81b-deeb-47aa-8a79-62e7bd76620b",
-    "timestamp": "2026-10-15T06:31:16.453348Z",
-    "source": "web",
-    "event_type": "normal_activity",
-    "source_ip": "172.16.254.3",
-    "username": "deploy",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "37578302-201a-41b7-a8c6-538796c3e113",
-    "timestamp": "2026-10-15T07:08:16.453348Z",
-    "source": "web",
-    "event_type": "normal_activity",
-    "source_ip": "192.168.1.101",
-    "username": "admin",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "f2d8608d-4808-4592-a933-278c2a99e093",
-    "timestamp": "2026-10-15T18:04:16.453348Z",
+    "id": "ba045628-2768-4d2b-95e2-f4c8dd1590cc",
+    "timestamp": "2026-10-14T19:12:03.517418Z",
     "source": "auth",
-    "event_type": "impossible_travel",
-    "source_ip": "91.108.4.0",
-    "username": "admin",
-    "message": "Login from Russia then Brazil within 10 minutes",
-    "details": {
-      "country_1": "RU",
-      "country_2": "BR",
-      "gap_minutes": 10
-    }
-  },
-  {
-    "id": "f3f39053-f8a4-4d6d-9882-ae7d6371408e",
-    "timestamp": "2026-10-15T19:06:16.453348Z",
-    "source": "web",
-    "event_type": "failed_login",
-    "source_ip": "10.0.0.42",
-    "username": "deploy",
-    "message": "Single failed login attempt",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "21bd28e0-2ff6-498d-8fc1-c532fbbb3b77",
-    "timestamp": "2026-10-15T20:00:16.453348Z",
-    "source": "web",
     "event_type": "normal_activity",
     "source_ip": "172.16.254.3",
-    "username": "ubuntu",
+    "username": "admin",
     "message": "Routine failed login, correct password on retry",
     "details": {
       "failed_attempts": 1
     }
   },
   {
-    "id": "bb51f1b0-95cb-4a10-bfa1-c20ecabf631e",
-    "timestamp": "2026-10-15T23:02:16.453348Z",
+    "id": "78400d87-b85d-41f7-a808-00511e22966c",
+    "timestamp": "2026-10-14T20:31:03.517418Z",
     "source": "web",
     "event_type": "normal_activity",
     "source_ip": "192.168.1.55",
-    "username": "ubuntu",
+    "username": "root",
     "message": "Routine failed login, correct password on retry",
     "details": {
       "failed_attempts": 1
     }
   },
   {
-    "id": "617d1641-7f9d-41d6-aa11-38fad4b15cbe",
-    "timestamp": "2026-10-15T23:33:16.453348Z",
-    "source": "firewall",
-    "event_type": "port_scan",
-    "source_ip": "45.33.32.156",
-    "username": null,
-    "message": "Sequential connection attempts to 4580 ports",
+    "id": "05861107-dfa9-4d23-b4cb-d3f6863adeb9",
+    "timestamp": "2026-10-14T21:08:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.42",
+    "username": "priya",
+    "message": "Single failed login attempt",
     "details": {
-      "ports_probed": 4580
+      "failed_attempts": 1
     }
   },
   {
-    "id": "473b4faf-842e-493c-8cfb-a3d7aa2ed160",
-    "timestamp": "2026-10-16T02:22:16.453348Z",
+    "id": "c5cf705d-2d4e-41ec-98e4-72a339170d14",
+    "timestamp": "2026-10-14T23:17:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "10.0.0.15",
+    "username": "admin",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "03b36759-7340-4f70-80bf-feedaef035c0",
+    "timestamp": "2026-10-15T02:46:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.101",
+    "username": "root",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "3f34050f-fec2-400d-9c98-9d3fd2b2255c",
+    "timestamp": "2026-10-15T04:58:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "192.168.1.55",
+    "username": "abhinav",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "553a1136-d535-44f3-bbe0-1653cbda801d",
+    "timestamp": "2026-10-15T05:10:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.42",
+    "username": "abhinav",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "63e43068-4f11-44fa-80e1-4fc97c86c67e",
+    "timestamp": "2026-10-15T08:00:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "172.16.254.3",
+    "username": "ganesh",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "0825bf66-52a4-41e2-8c6d-1bd616328ce5",
+    "timestamp": "2026-10-15T12:47:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.42",
+    "username": "root",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "28bf29c8-d3c6-4c9a-a802-d0204cd4836c",
+    "timestamp": "2026-10-15T14:08:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "172.16.254.3",
+    "username": "deploy",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "6ca2f42c-96c9-47f6-8f7d-f9ac040c749a",
+    "timestamp": "2026-10-15T18:10:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.42",
+    "username": "admin",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "e0c14bef-a2da-43ec-ad81-a0811e7a9e12",
+    "timestamp": "2026-10-15T19:50:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "172.16.254.3",
+    "username": "ganesh",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "5e5bed36-269f-4d14-9731-44209ad54274",
+    "timestamp": "2026-10-15T19:58:03.517418Z",
+    "source": "firewall",
+    "event_type": "port_scan",
+    "source_ip": "198.51.100.23",
+    "username": null,
+    "message": "Sequential connection attempts to 2602 ports",
+    "details": {
+      "ports_probed": 2602
+    }
+  },
+  {
+    "id": "af80296a-ea1e-45b8-84f3-8019a295e4f1",
+    "timestamp": "2026-10-15T23:11:03.517418Z",
     "source": "ssh",
     "event_type": "brute_force",
-    "source_ip": "198.51.100.23",
-    "username": "admin",
-    "message": "193 failed SSH logins followed by 1 success",
+    "source_ip": "91.108.4.0",
+    "username": "deploy",
+    "message": "62 failed SSH logins followed by 1 success",
     "details": {
-      "failed_attempts": 193,
+      "failed_attempts": 62,
       "window_seconds": 120
     }
   },
   {
-    "id": "dc7fb9d8-4520-47b7-850a-beae88641176",
-    "timestamp": "2026-10-16T04:11:16.453348Z",
-    "source": "web",
+    "id": "97b27cd0-4f34-4557-af37-766128b516f9",
+    "timestamp": "2026-10-16T00:02:03.517418Z",
+    "source": "auth",
     "event_type": "normal_activity",
-    "source_ip": "192.168.1.55",
-    "username": "ganesh",
+    "source_ip": "192.168.1.101",
+    "username": "abhinav",
     "message": "Routine failed login, correct password on retry",
     "details": {
       "failed_attempts": 1
     }
   },
   {
-    "id": "63aa0a26-7633-427d-9cbb-a72fb82824aa",
-    "timestamp": "2026-10-16T05:20:16.453348Z",
-    "source": "web",
+    "id": "1aa3c2ad-0ff3-4ca7-84dc-b6fd2fb2faf7",
+    "timestamp": "2026-10-16T04:08:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "172.16.254.3",
+    "username": "priya",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "b693fb4f-f6f7-4ad4-aa4d-2dec0c5e77e5",
+    "timestamp": "2026-10-16T04:14:03.517418Z",
+    "source": "auth",
     "event_type": "failed_login",
-    "source_ip": "192.168.1.101",
+    "source_ip": "10.0.0.15",
     "username": "ganesh",
     "message": "Single failed login attempt",
     "details": {
@@ -147,21 +217,202 @@
     }
   },
   {
-    "id": "de487acf-95db-49cb-a3c5-a4e2447536d0",
-    "timestamp": "2026-10-16T08:35:16.453348Z",
+    "id": "14018d16-b452-46c7-b360-4b860536cd64",
+    "timestamp": "2026-10-16T04:19:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.55",
+    "username": "priya",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "355e3534-051d-45f4-847d-fa4728893473",
+    "timestamp": "2026-10-16T07:19:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "172.16.254.3",
+    "username": "deploy",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "feb7969d-5c27-4668-8fe7-cf19f8355a2a",
+    "timestamp": "2026-10-16T09:23:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "192.168.1.101",
+    "username": "admin",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "ed604645-51a6-4ce4-8e68-ff90021504dc",
+    "timestamp": "2026-10-16T12:22:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.55",
+    "username": "deploy",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "35b3c4fd-4e89-43fa-b629-7ae3109c6ef1",
+    "timestamp": "2026-10-16T12:24:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "172.16.254.3",
+    "username": "abhinav",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "c2e54978-c8de-4ee3-be35-8dabf0a06e6b",
+    "timestamp": "2026-10-16T13:28:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "172.16.254.3",
+    "username": "ubuntu",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "293f016f-ce69-47dd-8762-d7da00eee125",
+    "timestamp": "2026-10-16T16:53:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "172.16.254.3",
+    "username": "root",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "a6511402-18f2-4e52-83df-8384de500d89",
+    "timestamp": "2026-10-16T19:32:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "10.0.0.15",
+    "username": "ganesh",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "280e44fa-4bd2-4c53-a05d-2c82d6650aa9",
+    "timestamp": "2026-10-16T20:17:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.101",
+    "username": "priya",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "2a4d477b-3203-457c-9817-045ef7b2666b",
+    "timestamp": "2026-10-16T21:21:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.42",
+    "username": "admin",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "339d2719-df08-415d-a1b6-b5c0dcd5568f",
+    "timestamp": "2026-10-16T22:05:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.101",
+    "username": "ganesh",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "5a0e67ff-20a6-4aea-bd55-809f813f3c4f",
+    "timestamp": "2026-10-17T00:18:03.517418Z",
     "source": "ssh",
     "event_type": "brute_force",
     "source_ip": "203.0.113.9",
-    "username": "ganesh",
-    "message": "86 failed SSH logins followed by 1 success",
+    "username": "abhinav",
+    "message": "115 failed SSH logins followed by 1 success",
     "details": {
-      "failed_attempts": 86,
+      "failed_attempts": 115,
       "window_seconds": 120
     }
   },
   {
-    "id": "fb8aacbb-ca60-4ca1-b483-62ccf18669f8",
-    "timestamp": "2026-10-16T10:59:16.453348Z",
+    "id": "20767bdb-4157-4478-9131-2d6eb5df68be",
+    "timestamp": "2026-10-17T02:47:03.517418Z",
+    "source": "ssh",
+    "event_type": "brute_force",
+    "source_ip": "198.51.100.23",
+    "username": "ubuntu",
+    "message": "156 failed SSH logins followed by 1 success",
+    "details": {
+      "failed_attempts": 156,
+      "window_seconds": 120
+    }
+  },
+  {
+    "id": "acddd4c5-c722-4071-b27b-79c1602a11d1",
+    "timestamp": "2026-10-17T03:28:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "192.168.1.101",
+    "username": "abhinav",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "5b6830d4-a69b-494d-989d-a1f008f1dd68",
+    "timestamp": "2026-10-17T04:29:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "10.0.0.15",
+    "username": "deploy",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "e06de58c-d356-4ad1-85ec-ea7dc2c3c40f",
+    "timestamp": "2026-10-17T04:29:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.15",
+    "username": "deploy",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "b02d1eeb-5319-43e7-8eed-7171e0aab863",
+    "timestamp": "2026-10-17T08:15:03.517418Z",
     "source": "web",
     "event_type": "normal_activity",
     "source_ip": "10.0.0.15",
@@ -172,118 +423,20 @@
     }
   },
   {
-    "id": "69aeadc7-acb2-43a4-b126-582324e1b9bd",
-    "timestamp": "2026-10-16T11:45:16.453348Z",
-    "source": "auth",
-    "event_type": "normal_activity",
-    "source_ip": "172.16.254.3",
-    "username": "root",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "20ec0887-41ec-4a53-8393-e2b55cbe1464",
-    "timestamp": "2026-10-16T13:09:16.453348Z",
+    "id": "7b9c56a7-67e0-48b4-aaf2-2fcb17a25a9f",
+    "timestamp": "2026-10-17T09:10:03.517418Z",
     "source": "web",
-    "event_type": "normal_activity",
-    "source_ip": "10.0.0.42",
-    "username": "ubuntu",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "6be89a1c-bbf5-42d7-b9f4-42e0b150a892",
-    "timestamp": "2026-10-16T15:21:16.453348Z",
-    "source": "web",
-    "event_type": "failed_login",
-    "source_ip": "10.0.0.42",
-    "username": "ubuntu",
-    "message": "Single failed login attempt",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "baeab23b-9e72-4ced-a159-5b686926936c",
-    "timestamp": "2026-10-16T20:32:16.453348Z",
-    "source": "web",
-    "event_type": "failed_login",
-    "source_ip": "192.168.1.101",
-    "username": "ubuntu",
-    "message": "Single failed login attempt",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "a55c3f81-09d9-4639-a4cf-51a4380a145b",
-    "timestamp": "2026-10-17T06:34:16.453348Z",
-    "source": "web",
-    "event_type": "failed_login",
-    "source_ip": "192.168.1.101",
-    "username": "ganesh",
-    "message": "Single failed login attempt",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "8ae931fe-4dd3-408e-8f2a-fe1b7e098b22",
-    "timestamp": "2026-10-17T10:50:16.453348Z",
-    "source": "web",
-    "event_type": "failed_login",
-    "source_ip": "172.16.254.3",
-    "username": "root",
-    "message": "Single failed login attempt",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "ec6efb2c-365f-4c13-9216-5532dc21ae06",
-    "timestamp": "2026-10-17T11:19:16.453348Z",
-    "source": "auth",
-    "event_type": "impossible_travel",
-    "source_ip": "45.33.32.156",
-    "username": "priya",
-    "message": "Login from India then Russia within 10 minutes",
-    "details": {
-      "country_1": "IN",
-      "country_2": "RU",
-      "gap_minutes": 10
-    }
-  },
-  {
-    "id": "fe11ab97-9143-4175-973e-bae66e2328ec",
-    "timestamp": "2026-10-17T14:58:16.453348Z",
-    "source": "auth",
-    "event_type": "normal_activity",
-    "source_ip": "10.0.0.15",
-    "username": "priya",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "5c648625-d259-4092-9a70-81eff26c533d",
-    "timestamp": "2026-10-17T15:34:16.453348Z",
-    "source": "auth",
     "event_type": "normal_activity",
     "source_ip": "192.168.1.101",
-    "username": "deploy",
+    "username": "abhinav",
     "message": "Routine failed login, correct password on retry",
     "details": {
       "failed_attempts": 1
     }
   },
   {
-    "id": "67c04ba5-3826-43c7-b990-0f5461e45567",
-    "timestamp": "2026-10-17T15:40:16.453348Z",
+    "id": "49dd9594-534f-4107-804f-91f8799f3aa3",
+    "timestamp": "2026-10-17T13:31:03.517418Z",
     "source": "auth",
     "event_type": "normal_activity",
     "source_ip": "192.168.1.55",
@@ -294,71 +447,71 @@
     }
   },
   {
-    "id": "077c6353-46f5-4ccf-99af-2e5e27dd8514",
-    "timestamp": "2026-10-17T17:19:16.453348Z",
-    "source": "web",
-    "event_type": "normal_activity",
-    "source_ip": "192.168.1.101",
-    "username": "ubuntu",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "1827df95-f228-4019-be5e-9713a1a21688",
-    "timestamp": "2026-10-17T19:14:16.453348Z",
-    "source": "auth",
-    "event_type": "normal_activity",
-    "source_ip": "10.0.0.42",
-    "username": "root",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "0c0c6c77-9856-4709-9708-2e3d03b001b5",
-    "timestamp": "2026-10-17T19:47:16.453348Z",
+    "id": "0f8da000-e720-4369-95d6-e0fd70fdd024",
+    "timestamp": "2026-10-17T14:50:03.517418Z",
     "source": "auth",
     "event_type": "normal_activity",
     "source_ip": "192.168.1.101",
-    "username": "ubuntu",
+    "username": "abhinav",
     "message": "Routine failed login, correct password on retry",
     "details": {
       "failed_attempts": 1
     }
   },
   {
-    "id": "14aa646e-0795-43fb-acb5-408ededc0e81",
-    "timestamp": "2026-10-18T02:19:16.453348Z",
-    "source": "web",
+    "id": "c095327d-73c0-4924-b30c-20a236b89e9b",
+    "timestamp": "2026-10-17T16:16:03.517418Z",
+    "source": "auth",
     "event_type": "normal_activity",
     "source_ip": "10.0.0.15",
-    "username": "root",
+    "username": "deploy",
     "message": "Routine failed login, correct password on retry",
     "details": {
       "failed_attempts": 1
     }
   },
   {
-    "id": "dff86201-0091-4986-bd15-d82e2dd43239",
-    "timestamp": "2026-10-18T05:27:16.453348Z",
-    "source": "firewall",
-    "event_type": "port_scan",
-    "source_ip": "198.51.100.23",
-    "username": null,
-    "message": "Sequential connection attempts to 2158 ports",
+    "id": "5fe39d52-2439-45d6-b860-9ab75ca66fb1",
+    "timestamp": "2026-10-17T17:10:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "10.0.0.42",
+    "username": "ubuntu",
+    "message": "Routine failed login, correct password on retry",
     "details": {
-      "ports_probed": 2158
+      "failed_attempts": 1
     }
   },
   {
-    "id": "b1a46cc3-8c61-49b1-960a-2b4e91b4c54b",
-    "timestamp": "2026-10-18T07:52:16.453348Z",
-    "source": "auth",
+    "id": "36d6347f-7509-496f-b703-0c89de31662e",
+    "timestamp": "2026-10-17T20:52:03.517418Z",
+    "source": "web",
     "event_type": "normal_activity",
-    "source_ip": "10.0.0.42",
+    "source_ip": "192.168.1.55",
+    "username": "admin",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "0c2f70c1-78b1-49a7-9f35-7ea82cf2f820",
+    "timestamp": "2026-10-17T21:24:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "192.168.1.101",
+    "username": "abhinav",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "04459e9f-45d5-469e-b0c6-cf4fd52cd74d",
+    "timestamp": "2026-10-17T21:43:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "172.16.254.3",
     "username": "ganesh",
     "message": "Routine failed login, correct password on retry",
     "details": {
@@ -366,269 +519,204 @@
     }
   },
   {
-    "id": "78f1995f-c940-4548-ab18-0d660b0e0386",
-    "timestamp": "2026-10-18T11:00:16.453348Z",
-    "source": "ssh",
-    "event_type": "brute_force",
-    "source_ip": "45.33.32.156",
-    "username": "root",
-    "message": "152 failed SSH logins followed by 1 success",
+    "id": "aa5c1f78-0087-4334-83a5-f0fb62e83b34",
+    "timestamp": "2026-10-17T21:54:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "172.16.254.3",
+    "username": "ubuntu",
+    "message": "Routine failed login, correct password on retry",
     "details": {
-      "failed_attempts": 152,
-      "window_seconds": 120
+      "failed_attempts": 1
     }
   },
   {
-    "id": "ad4b3ec7-3893-42ed-b05b-e1ba862c7814",
-    "timestamp": "2026-10-18T13:26:16.453348Z",
+    "id": "65f45259-30c4-42b7-a547-4dc304949be9",
+    "timestamp": "2026-10-17T23:47:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "172.16.254.3",
+    "username": "ganesh",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "ead51880-3b78-418b-9009-73fc82c2d5b1",
+    "timestamp": "2026-10-18T01:31:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.101",
+    "username": "admin",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "0ae5ccd4-e580-4703-9d4d-237d2361b17d",
+    "timestamp": "2026-10-18T06:35:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.42",
+    "username": "priya",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "371d32a7-9e5b-4316-ab60-3c0001ee7af5",
+    "timestamp": "2026-10-18T09:24:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.101",
+    "username": "abhinav",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "d29faec9-7b22-48a2-b6e9-8099af529743",
+    "timestamp": "2026-10-18T09:28:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "192.168.1.55",
+    "username": "abhinav",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "78be6cc3-a8ca-4a6d-a5dd-56c2c8310326",
+    "timestamp": "2026-10-18T09:36:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.101",
+    "username": "abhinav",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "3957d705-72ab-4741-9411-de3dd89716c6",
+    "timestamp": "2026-10-18T14:49:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "172.16.254.3",
+    "username": "deploy",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "0663eeb8-ae84-4d83-821a-f3672d018936",
+    "timestamp": "2026-10-18T14:55:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.55",
+    "username": "admin",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "7c5c0599-3704-4049-9bb6-44bbd7ae3a2f",
+    "timestamp": "2026-10-18T15:18:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.101",
+    "username": "abhinav",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "68633266-bd92-4fbc-b1d5-7c32c3bf3d49",
+    "timestamp": "2026-10-18T15:58:03.517418Z",
     "source": "endpoint",
     "event_type": "malware_beacon",
     "source_ip": "192.168.1.101",
     "username": null,
-    "message": "Repeated outbound connection every 81s to known C2",
+    "message": "Repeated outbound connection every 244s to known C2",
     "details": {
-      "interval_seconds": 81,
+      "interval_seconds": 244,
       "destination": "185.220.101.47"
     }
   },
   {
-    "id": "840fef0f-f0d2-4015-9e85-3ee1aee99845",
-    "timestamp": "2026-10-18T14:58:16.453348Z",
-    "source": "web",
-    "event_type": "normal_activity",
-    "source_ip": "10.0.0.15",
-    "username": "deploy",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "8d9a74c5-73b4-416e-947d-a9e76cd88223",
-    "timestamp": "2026-10-18T17:21:16.453348Z",
-    "source": "auth",
-    "event_type": "normal_activity",
-    "source_ip": "10.0.0.42",
-    "username": "admin",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "80df07e8-d58a-41c2-9ddf-a753ae23dc18",
-    "timestamp": "2026-10-18T19:48:16.453348Z",
-    "source": "web",
-    "event_type": "failed_login",
-    "source_ip": "192.168.1.101",
-    "username": "deploy",
-    "message": "Single failed login attempt",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "5341a0ef-bdbc-4159-b431-fff4144046a2",
-    "timestamp": "2026-10-18T19:49:16.453348Z",
-    "source": "auth",
-    "event_type": "failed_login",
-    "source_ip": "192.168.1.55",
-    "username": "deploy",
-    "message": "Single failed login attempt",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "9cd37d1d-2c9c-44e1-be25-277878155c98",
-    "timestamp": "2026-10-18T23:15:16.453348Z",
-    "source": "auth",
-    "event_type": "failed_login",
-    "source_ip": "192.168.1.101",
-    "username": "abhinav",
-    "message": "Single failed login attempt",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "64a916f4-1831-434d-a6e5-e8c928e013ae",
-    "timestamp": "2026-10-19T00:04:16.453348Z",
-    "source": "auth",
-    "event_type": "normal_activity",
-    "source_ip": "10.0.0.42",
-    "username": "abhinav",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "644ec6b8-ff16-4477-9129-016f4d5fe3c4",
-    "timestamp": "2026-10-19T05:27:16.453348Z",
-    "source": "auth",
-    "event_type": "normal_activity",
-    "source_ip": "10.0.0.42",
-    "username": "abhinav",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "3cb0a2c2-df66-4548-8041-3c2e953e4480",
-    "timestamp": "2026-10-19T10:30:16.453348Z",
-    "source": "auth",
-    "event_type": "failed_login",
-    "source_ip": "192.168.1.55",
-    "username": "root",
-    "message": "Single failed login attempt",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "7fcfd731-91bc-4b4b-b4c9-707ddb1c973e",
-    "timestamp": "2026-10-19T12:22:16.453348Z",
-    "source": "auth",
-    "event_type": "normal_activity",
-    "source_ip": "192.168.1.55",
-    "username": "root",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "cd510e5e-8f46-468c-aeef-2c7687a889c6",
-    "timestamp": "2026-10-19T12:50:16.453348Z",
+    "id": "62912fda-f358-493c-b953-9521c96c0736",
+    "timestamp": "2026-10-18T19:59:03.517418Z",
     "source": "firewall",
     "event_type": "port_scan",
     "source_ip": "185.220.101.47",
     "username": null,
-    "message": "Sequential connection attempts to 2047 ports",
+    "message": "Sequential connection attempts to 4762 ports",
     "details": {
-      "ports_probed": 2047
+      "ports_probed": 4762
     }
   },
   {
-    "id": "f4f485fb-293d-4b66-b164-9b7bb82ed903",
-    "timestamp": "2026-10-19T12:51:16.453348Z",
-    "source": "web",
-    "event_type": "normal_activity",
-    "source_ip": "192.168.1.55",
-    "username": "ganesh",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "37ab1295-1f36-4a0a-9607-09b8be9c305d",
-    "timestamp": "2026-10-19T18:53:16.453348Z",
+    "id": "1a89cbcf-39c2-45c4-ad9e-56c4a85ddd11",
+    "timestamp": "2026-10-18T20:33:03.517418Z",
     "source": "auth",
-    "event_type": "normal_activity",
-    "source_ip": "10.0.0.15",
-    "username": "ganesh",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "ed488c20-74d8-41b7-9d0e-48636a2f4f2a",
-    "timestamp": "2026-10-19T19:00:16.453348Z",
-    "source": "web",
     "event_type": "failed_login",
-    "source_ip": "172.16.254.3",
-    "username": "ubuntu",
+    "source_ip": "10.0.0.15",
+    "username": "admin",
     "message": "Single failed login attempt",
     "details": {
       "failed_attempts": 1
     }
   },
   {
-    "id": "28fdc67b-b25a-42a0-bb39-d191c201febe",
-    "timestamp": "2026-10-19T20:09:16.453348Z",
-    "source": "auth",
-    "event_type": "normal_activity",
-    "source_ip": "192.168.1.101",
-    "username": "priya",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
-    }
-  },
-  {
-    "id": "69490875-7d12-49c4-b5c7-3056ea9d208e",
-    "timestamp": "2026-10-19T20:29:16.453348Z",
-    "source": "ssh",
-    "event_type": "brute_force",
-    "source_ip": "91.108.4.0",
-    "username": "ubuntu",
-    "message": "128 failed SSH logins followed by 1 success",
-    "details": {
-      "failed_attempts": 128,
-      "window_seconds": 120
-    }
-  },
-  {
-    "id": "15fada19-157a-47b1-8d1b-25483176f9d9",
-    "timestamp": "2026-10-20T03:53:16.453348Z",
-    "source": "auth",
-    "event_type": "impossible_travel",
+    "id": "19c66753-836c-4efa-b8c6-4bf95cbbf48e",
+    "timestamp": "2026-10-18T21:07:03.517418Z",
+    "source": "firewall",
+    "event_type": "port_scan",
     "source_ip": "45.33.32.156",
-    "username": "priya",
-    "message": "Login from India then Russia within 10 minutes",
+    "username": null,
+    "message": "Sequential connection attempts to 3330 ports",
     "details": {
-      "country_1": "IN",
-      "country_2": "RU",
-      "gap_minutes": 10
+      "ports_probed": 3330
     }
   },
   {
-    "id": "4088ec86-37e8-4dea-a3ef-208902c136b8",
-    "timestamp": "2026-10-20T03:58:16.453348Z",
+    "id": "1818b10f-7d1b-4277-981b-7e87bc9fa4ec",
+    "timestamp": "2026-10-19T01:14:03.517418Z",
     "source": "web",
     "event_type": "normal_activity",
-    "source_ip": "192.168.1.55",
-    "username": "root",
+    "source_ip": "10.0.0.15",
+    "username": "abhinav",
     "message": "Routine failed login, correct password on retry",
     "details": {
       "failed_attempts": 1
     }
   },
   {
-    "id": "88a3025f-0e2b-4777-89e8-9a7615e821f7",
-    "timestamp": "2026-10-20T10:17:16.453348Z",
-    "source": "auth",
+    "id": "e8fd8b13-a5af-4268-b772-b103c3984fbe",
+    "timestamp": "2026-10-19T02:08:03.517418Z",
+    "source": "web",
     "event_type": "failed_login",
-    "source_ip": "10.0.0.42",
-    "username": "admin",
+    "source_ip": "172.16.254.3",
+    "username": "priya",
     "message": "Single failed login attempt",
     "details": {
       "failed_attempts": 1
     }
   },
   {
-    "id": "35d68572-e4ec-4236-a6cc-bfd2bc4f458d",
-    "timestamp": "2026-10-20T19:00:16.453348Z",
-    "source": "ssh",
-    "event_type": "brute_force",
-    "source_ip": "203.0.113.9",
-    "username": "priya",
-    "message": "107 failed SSH logins followed by 1 success",
-    "details": {
-      "failed_attempts": 107,
-      "window_seconds": 120
-    }
-  },
-  {
-    "id": "45e3099d-e8be-4b92-b99e-83bc0b710469",
-    "timestamp": "2026-10-20T19:47:16.453348Z",
+    "id": "4a7def6f-eb4e-4e58-8939-b2ce133e47df",
+    "timestamp": "2026-10-19T04:03:03.517418Z",
     "source": "web",
     "event_type": "normal_activity",
-    "source_ip": "10.0.0.15",
+    "source_ip": "10.0.0.42",
     "username": "ganesh",
     "message": "Routine failed login, correct password on retry",
     "details": {
@@ -636,11 +724,219 @@
     }
   },
   {
-    "id": "b1aeeb99-384d-4fac-934b-a309a50619c5",
-    "timestamp": "2026-10-20T22:09:16.453348Z",
+    "id": "10762f11-e3c3-4c78-9410-49e005642a4b",
+    "timestamp": "2026-10-19T06:15:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.101",
+    "username": "ubuntu",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "94627019-d002-49a1-a52a-eba002d5ef64",
+    "timestamp": "2026-10-19T06:31:03.517418Z",
     "source": "auth",
     "event_type": "failed_login",
+    "source_ip": "10.0.0.42",
+    "username": "deploy",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "084912b0-cd5d-47d1-8102-2c133ddec91b",
+    "timestamp": "2026-10-19T08:12:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "172.16.254.3",
+    "username": "ganesh",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "9d8df5a5-7902-4174-b1d7-996dae022329",
+    "timestamp": "2026-10-19T11:51:03.517418Z",
+    "source": "endpoint",
+    "event_type": "malware_beacon",
     "source_ip": "192.168.1.55",
+    "username": null,
+    "message": "Repeated outbound connection every 30s to known C2",
+    "details": {
+      "interval_seconds": 30,
+      "destination": "185.220.101.47"
+    }
+  },
+  {
+    "id": "a9a1652c-8b0e-4a5a-9816-a6feb4d42046",
+    "timestamp": "2026-10-19T12:13:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "10.0.0.42",
+    "username": "admin",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "cd5b1091-4056-4c03-a6b2-ecb992b68893",
+    "timestamp": "2026-10-19T13:35:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.15",
+    "username": "deploy",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "1c8bd299-173d-4e1f-852c-84f06f8e940b",
+    "timestamp": "2026-10-19T15:38:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "172.16.254.3",
+    "username": "root",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "954c3ec4-5ab1-418c-a926-7f33bef51f6b",
+    "timestamp": "2026-10-19T16:42:03.517418Z",
+    "source": "endpoint",
+    "event_type": "malware_beacon",
+    "source_ip": "10.0.0.42",
+    "username": null,
+    "message": "Repeated outbound connection every 216s to known C2",
+    "details": {
+      "interval_seconds": 216,
+      "destination": "185.220.101.47"
+    }
+  },
+  {
+    "id": "46e44a03-5ee9-405e-94e4-2b25f8424a36",
+    "timestamp": "2026-10-19T16:50:03.517418Z",
+    "source": "firewall",
+    "event_type": "port_scan",
+    "source_ip": "185.220.101.47",
+    "username": null,
+    "message": "Sequential connection attempts to 1341 ports",
+    "details": {
+      "ports_probed": 1341
+    }
+  },
+  {
+    "id": "2b17e70a-8733-42ea-a0dc-f121bc16631a",
+    "timestamp": "2026-10-19T17:25:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "172.16.254.3",
+    "username": "root",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "9b6dfc84-bf6a-49da-b4bd-9b7ae56264e8",
+    "timestamp": "2026-10-19T20:02:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.101",
+    "username": "priya",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "ce4ce06d-3908-43b1-b02c-423c5933432f",
+    "timestamp": "2026-10-19T23:34:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "192.168.1.101",
+    "username": "priya",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "7949b387-ff74-4e97-be7e-825db1d92d01",
+    "timestamp": "2026-10-20T00:53:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "172.16.254.3",
+    "username": "abhinav",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "f64eb1e7-cc80-47f9-ba68-756c0b8f66d4",
+    "timestamp": "2026-10-20T01:45:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.55",
+    "username": "priya",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "10a880f0-cf5d-47da-a970-bfc08fbc3990",
+    "timestamp": "2026-10-20T03:02:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "10.0.0.15",
+    "username": "abhinav",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "cf620d88-6d51-4724-b7c8-a83d3b62b3f3",
+    "timestamp": "2026-10-20T04:01:03.517418Z",
+    "source": "ssh",
+    "event_type": "brute_force",
+    "source_ip": "198.51.100.23",
+    "username": "ubuntu",
+    "message": "84 failed SSH logins followed by 1 success",
+    "details": {
+      "failed_attempts": 84,
+      "window_seconds": 120
+    }
+  },
+  {
+    "id": "b25dcce3-12a7-4168-85eb-e7d73878f830",
+    "timestamp": "2026-10-20T04:04:03.517418Z",
+    "source": "ssh",
+    "event_type": "brute_force",
+    "source_ip": "185.220.101.47",
+    "username": "ubuntu",
+    "message": "189 failed SSH logins followed by 1 success",
+    "details": {
+      "failed_attempts": 189,
+      "window_seconds": 120
+    }
+  },
+  {
+    "id": "086ab296-cd65-41d4-828a-31d5d0db5535",
+    "timestamp": "2026-10-20T04:08:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "192.168.1.101",
     "username": "abhinav",
     "message": "Single failed login attempt",
     "details": {
@@ -648,11 +944,48 @@
     }
   },
   {
-    "id": "ef356f7a-db6c-4ab8-8e16-5b13933616f6",
-    "timestamp": "2026-10-21T04:25:16.453348Z",
+    "id": "19c3998f-167c-45cb-9749-9fb68928f4bf",
+    "timestamp": "2026-10-20T04:40:03.517418Z",
+    "source": "endpoint",
+    "event_type": "malware_beacon",
+    "source_ip": "10.0.0.42",
+    "username": null,
+    "message": "Repeated outbound connection every 83s to known C2",
+    "details": {
+      "interval_seconds": 83,
+      "destination": "185.220.101.47"
+    }
+  },
+  {
+    "id": "765d8489-9aa4-495e-8370-96ecde39f0b0",
+    "timestamp": "2026-10-20T05:07:03.517418Z",
     "source": "web",
     "event_type": "normal_activity",
-    "source_ip": "172.16.254.3",
+    "source_ip": "10.0.0.15",
+    "username": "root",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "040e462e-1d3d-4054-95aa-5cbac28a1f30",
+    "timestamp": "2026-10-20T07:30:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.15",
+    "username": "ganesh",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "e30aaadf-ccef-4106-a964-f1d4b5335db7",
+    "timestamp": "2026-10-20T08:28:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.101",
     "username": "deploy",
     "message": "Routine failed login, correct password on retry",
     "details": {
@@ -660,8 +993,20 @@
     }
   },
   {
-    "id": "5edb682f-74ec-4cf2-8197-f561d888e744",
-    "timestamp": "2026-10-21T04:28:16.453348Z",
+    "id": "8f04bff6-f18f-4729-a249-1d0fbdc26d41",
+    "timestamp": "2026-10-20T10:58:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "172.16.254.3",
+    "username": "ubuntu",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "8bad0d6f-3a16-47ce-a0f8-55d28822ccc8",
+    "timestamp": "2026-10-20T12:34:03.517418Z",
     "source": "web",
     "event_type": "normal_activity",
     "source_ip": "172.16.254.3",
@@ -672,9 +1017,21 @@
     }
   },
   {
-    "id": "2ffde24e-bdae-4ec9-94fc-5692ebbb37f2",
-    "timestamp": "2026-10-21T05:36:16.453348Z",
-    "source": "auth",
+    "id": "386f5a1d-9941-4da4-8945-1c6f28cee547",
+    "timestamp": "2026-10-20T13:38:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "192.168.1.55",
+    "username": "deploy",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "0a0fa701-12ea-4489-b416-03bd79cfc6df",
+    "timestamp": "2026-10-20T16:27:03.517418Z",
+    "source": "web",
     "event_type": "failed_login",
     "source_ip": "192.168.1.55",
     "username": "ubuntu",
@@ -684,53 +1041,172 @@
     }
   },
   {
-    "id": "5aa7fcac-371c-4cf2-9226-e8570cafe28b",
-    "timestamp": "2026-10-21T05:57:16.453348Z",
-    "source": "ssh",
-    "event_type": "brute_force",
+    "id": "409b6411-c85b-4eef-bd94-8927644085ac",
+    "timestamp": "2026-10-20T16:35:03.517418Z",
+    "source": "firewall",
+    "event_type": "port_scan",
     "source_ip": "185.220.101.47",
-    "username": "admin",
-    "message": "174 failed SSH logins followed by 1 success",
+    "username": null,
+    "message": "Sequential connection attempts to 4552 ports",
     "details": {
-      "failed_attempts": 174,
-      "window_seconds": 120
+      "ports_probed": 4552
     }
   },
   {
-    "id": "7168207b-3aec-4271-a627-256eb1439c83",
-    "timestamp": "2026-10-21T07:54:16.453348Z",
-    "source": "ssh",
-    "event_type": "brute_force",
-    "source_ip": "203.0.113.9",
+    "id": "87deff97-52a7-482f-b460-c656e951b638",
+    "timestamp": "2026-10-20T21:14:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "172.16.254.3",
+    "username": "abhinav",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "9c4c4d95-6009-481f-b2c4-9402b37b6184",
+    "timestamp": "2026-10-20T23:23:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.42",
+    "username": "priya",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "60c8ee3d-2fe9-4c03-ab9b-8aaf38ac8c38",
+    "timestamp": "2026-10-21T00:27:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "172.16.254.3",
+    "username": "ubuntu",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "2524c0a4-8189-4ce1-a06d-6b3726ad52a2",
+    "timestamp": "2026-10-21T05:08:03.517418Z",
+    "source": "endpoint",
+    "event_type": "malware_beacon",
+    "source_ip": "192.168.1.101",
+    "username": null,
+    "message": "Repeated outbound connection every 173s to known C2",
+    "details": {
+      "interval_seconds": 173,
+      "destination": "185.220.101.47"
+    }
+  },
+  {
+    "id": "1c98920a-1233-41ae-8625-8c3e1db0673b",
+    "timestamp": "2026-10-21T05:55:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.15",
+    "username": "priya",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "f5c54c92-bc24-441d-b25a-feeb27ab9c92",
+    "timestamp": "2026-10-21T06:57:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "10.0.0.42",
     "username": "ganesh",
-    "message": "179 failed SSH logins followed by 1 success",
+    "message": "Single failed login attempt",
     "details": {
-      "failed_attempts": 179,
-      "window_seconds": 120
+      "failed_attempts": 1
     }
   },
   {
-    "id": "b90e1d75-bb19-41f1-a9c7-9de04ce86932",
-    "timestamp": "2026-10-21T16:50:16.453348Z",
+    "id": "3fd36f64-7dd1-4b4a-8466-f2a9a0bcfc00",
+    "timestamp": "2026-10-21T08:19:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.55",
+    "username": "deploy",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "e720b5f7-25e6-4e50-848e-903dbe9647f8",
+    "timestamp": "2026-10-21T09:28:03.517418Z",
+    "source": "auth",
+    "event_type": "normal_activity",
+    "source_ip": "10.0.0.15",
+    "username": "ganesh",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "4c0ac6aa-3a8e-42fc-85f5-349f72e08f00",
+    "timestamp": "2026-10-21T10:47:03.517418Z",
+    "source": "auth",
+    "event_type": "failed_login",
+    "source_ip": "172.16.254.3",
+    "username": "ubuntu",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "2bb06764-a98c-48d0-9a41-ec907d3500cf",
+    "timestamp": "2026-10-21T13:00:03.517418Z",
+    "source": "web",
+    "event_type": "failed_login",
+    "source_ip": "172.16.254.3",
+    "username": "root",
+    "message": "Single failed login attempt",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "af98fe9f-6362-4725-8c14-e92ef6005ce1",
+    "timestamp": "2026-10-21T14:24:03.517418Z",
+    "source": "firewall",
+    "event_type": "port_scan",
+    "source_ip": "198.51.100.23",
+    "username": null,
+    "message": "Sequential connection attempts to 1826 ports",
+    "details": {
+      "ports_probed": 1826
+    }
+  },
+  {
+    "id": "78ae98e1-5eeb-4eb8-b5e3-d7b1dd45920f",
+    "timestamp": "2026-10-21T16:05:03.517418Z",
+    "source": "web",
+    "event_type": "normal_activity",
+    "source_ip": "192.168.1.55",
+    "username": "deploy",
+    "message": "Routine failed login, correct password on retry",
+    "details": {
+      "failed_attempts": 1
+    }
+  },
+  {
+    "id": "c13bbed5-df32-4945-9b96-8bce65f1f24a",
+    "timestamp": "2026-10-21T17:59:03.517418Z",
     "source": "firewall",
     "event_type": "port_scan",
     "source_ip": "203.0.113.9",
     "username": null,
-    "message": "Sequential connection attempts to 2539 ports",
+    "message": "Sequential connection attempts to 4604 ports",
     "details": {
-      "ports_probed": 2539
-    }
-  },
-  {
-    "id": "8e6366be-883a-4beb-8e69-390fe1eb79a6",
-    "timestamp": "2026-10-21T18:43:16.453348Z",
-    "source": "web",
-    "event_type": "normal_activity",
-    "source_ip": "10.0.0.15",
-    "username": "priya",
-    "message": "Routine failed login, correct password on retry",
-    "details": {
-      "failed_attempts": 1
+      "ports_probed": 4604
     }
   }
 ]
