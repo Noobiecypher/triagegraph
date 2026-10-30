@@ -11,7 +11,7 @@ from triagegraph.models import Alert
 
 @dataclass
 class GeneratorConfig:
-        total: int = 100
+        total: int = 60
         output_path: Path = Path("data/alerts_60.json")
         high_ratio: float = 0.25 # 25% high severity
         low_ratio: float = 0.5 # 50% low severity(noise)
@@ -174,7 +174,7 @@ def summarise(alerts: list[Alert]) -> None:
 
 
 if __name__ == "__main__":
-    config = GeneratorConfig(total = 100)
+    config = GeneratorConfig(total = 60)
     alerts = generate_alerts(config)
     summarise(alerts)
     save_alerts(alerts, config.output_path)
