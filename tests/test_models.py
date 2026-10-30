@@ -2,6 +2,7 @@ import pytest
 from pydantic import ValidationError
 from triagegraph.models import Alert, Classification
 from triagegraph.generate_alerts import GeneratorConfig, generate_alerts
+from triagegraph.tools import lookup_ip_reputation, search_past_incidents, map_to_mitre
 
 #we need this to avoid writing code repititively
 def valid_alert_data() -> dict:
@@ -55,3 +56,26 @@ def test_generator_alerts_are_valid_alert_objects():
         assert isinstance(alert, Alert)
         assert alert.source_ip is not None
         assert len(alert.message) > 0
+
+def test_known_malicious_ip_returns_malicious():
+    result = lookup_ip_reputation.invoke({"ip": "185.220.101.47"})
+    assert result["reputation"] == "malicious"
+    assert result["risk_score"] > 5
+
+
+def test_unknown_ip_returns_unknown():
+    result = lookup_ip_reputation.invoke({"ip": "1.2.3.4"})
+    assert result["reputation"] == "unknown"
+    assert result["risk_score"] == 0
+
+
+def test_mitre_brute_force_maps_correctly():
+    result = map_to_mitre.invoke({"event_type": "brute_force"})
+    assert result["technique_id"] == "T1110"
+    assert result["tactic"] == "Credential Access"
+
+
+def test_search_past_incidents_returns_list():
+    result = search_past_incidents.invoke({"event_type": "brute_force"})
+    assert isinstance(result, list)
+    assert all(r["event_type"] == "brute_force" for r in result)

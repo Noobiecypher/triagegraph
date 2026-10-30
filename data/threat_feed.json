@@ -1,0 +1,37 @@
+{
+    "185.220.101.47": {
+      "reputation": "malicious",
+      "tags": ["tor-exit-node", "C2", "botnet"],
+      "risk_score": 9,
+      "country": "DE",
+      "last_seen": "2026-10-28"
+    },
+    "203.0.113.9": {
+      "reputation": "malicious",
+      "tags": ["brute-force", "scanner"],
+      "risk_score": 8,
+      "country": "CN",
+      "last_seen": "2026-10-27"
+    },
+    "198.51.100.23": {
+      "reputation": "suspicious",
+      "tags": ["scanner", "port-scan"],
+      "risk_score": 6,
+      "country": "RU",
+      "last_seen": "2026-10-26"
+    },
+    "45.33.32.156": {
+      "reputation": "malicious",
+      "tags": ["brute-force", "credential-stuffing"],
+      "risk_score": 8,
+      "country": "US",
+      "last_seen": "2026-10-25"
+    },
+    "91.108.4.0": {
+      "reputation": "suspicious",
+      "tags": ["scanner", "bruteforce"],
+      "risk_score": 7,
+      "country": "NL",
+      "last_seen": "2026-10-24"
+    }
+  }
